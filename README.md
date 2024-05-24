@@ -442,3 +442,29 @@ Download https://dl.twrp.me/angler/twrp-3.5.1_9-0-angler.img.html
 
 16. Setup phone as if was new
 
+adb reboot bootloader
+
+Download https://dl.twrp.me/angler/twrp-3.5.1_9-0-angler.img.html
+
+now copy Download https://dl.twrp.me/angler/twrp-3.5.1_9-0-angler.img.html into platform tools main folder 
+
+in address bar type cmd 
+
+in terminal type:
+
+fastboot flash recovery twrp-3.5.1_9-0-angler.img
+
+
+
+
+
+
+
+fastboot reboot
+
+In Android Browser Download the Magisk Manager App: https://tweakdroid.com/downloadlinks/magisk-manager-app/
+
+
+
+
+
