@@ -81,31 +81,14 @@ Installing Kali Nethunter in Nexus 6P (Angler) - Step #1
 Updated: 20180512
 ********************************************************
 Websites used in this step:
-	https://developer.android.com/studio
-	https://adb.clockworkmod.com/
-	https://rootmygalaxy.net/downgrade-android-oreo-android-nougat/
 	https://www.androidcentral.com/how-unlock-nexus-6p-bootloader
 
-*NOTE 1: If you have any android version above 7.1.1 STOP and go to Step#0 to Downgrade to Nougat
-**NOTE: All required files are included in the zip...steps reflect what I did in the process
+
 
 --------------------------------------------------------------
 Section #1.0: Initial Setup
 --------------------------------------------------------------
-1. Download latest OracleVirtualbox (free) or VMWare Workstation
-
-2. Install VM software and create a Windows 7 VM to prevent damage/infection to main system
-	a. Have 2GB ram...4GB recommended
-	b. 128MB video with 3D and 2D if possible
-	c. NAT to host or Bridge if router is not using ACL or if MAC was added to pool
-
-3. Log into Win7VM and install Mozilla Firefox
-
-4. Download and install:
-	a. adb-setup-1.4.3
-	b. UniversalAdbDriverSetup
-
-5. Set phone to Developer Mode:
+ Set phone to Developer Mode:
 	a. Go to Settings
 	b. Go to About phone
 	c. Tap Build number 7 times
@@ -157,21 +140,17 @@ Section #1.1: Unlock Bootloader
 7. Type: fastboot devices
 	(you'll see a serial number and the word fastboot)
 
-8. Type: fastboot flashing unlocked
-	(THIS WILL RESET THE PHONE TO FACTORY MODE...YOU WILL LOSE ALL DATA!!!)
-
-9. Setup phone as it was new then go to Step #2 folder
+Type: fastboot reboot
 
 
 ********************************************************
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #2
 Updated: 20180512
 ********************************************************
-Websites used in this step:
-	https://android.gadgethacks.com/how-to/root-android-oreo-nexus-5x-6p-0176736/
-	https://download.chainfire.eu/1122/SuperSU/SR3-SuperSU-v2.82-SR3-20170813133244.zip
-	https://www.reddit.com/r/zenfone2/comments/3f0t7z/trying_to_flash_twrpsuccessful_but_cant_boot_into/
-	https:/www.youtube.com/wawtch?v=5ucIwt9cPiE
+from android  browser download:
+
+https://download.chainfire.eu/1122/SuperSU/SR3-SuperSU-v2.82-SR3-20170813133244.zip
+	
 	https://dl.twrp.me/angler/twrp-3.2.1-0-angler.img.html
 
 *NOTE: All required files are included in the zip...steps reflect what I did in the process
